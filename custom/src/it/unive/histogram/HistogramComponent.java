@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.time.temporal.ValueRange;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class HistogramComponent extends JComponent {
     private ArrayList<HistogramElement> valueList;
@@ -12,6 +13,7 @@ public class HistogramComponent extends JComponent {
     private static final int VALUE_HEIGHT = 20;
 
     public HistogramComponent(ArrayList<HistogramElement> valueList) {
+        super();
         if (valueList.size() == 0) {
             throw new IllegalArgumentException("Array size must be greater than 0");
         }

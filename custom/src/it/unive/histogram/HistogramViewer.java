@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.util.ArrayList;
 
 public class HistogramViewer {
+    //modificare in modo che il nome delle barre sia responsive e di aggiungere del padding tra i valori e le barre
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         frame.setSize(400, 300);
